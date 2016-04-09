@@ -1,0 +1,18 @@
+* {
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 300;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.main {
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+}
+
+.section {
+    padding-top: 5vmin;
+}
