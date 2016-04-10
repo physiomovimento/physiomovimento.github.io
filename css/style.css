@@ -8,10 +8,31 @@ html {
     min-height: 100%;
 }
 
-.main {
-    padding-bottom: 20vmin;
+body {
+    background: url("../img/tile.jpg");
+    background-size: 20vmax;
+}
+
+a {
+    color: #006380;
+}
+
+.container {
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+    padding: 10px 5vmin;
+    background-color: white;
 }
 
 .section {
     padding-top: 5vmin;
+}
+
+.row {
+    font-size: 150%;
+}
+
+.names {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
