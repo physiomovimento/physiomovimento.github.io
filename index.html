@@ -259,16 +259,33 @@
 
     var chars = d3.select("body * svg").selectAll("path").data(data);
 
-    chars.on("mouseover", function (d, index) {
+    var bounceChar = function (char, delay) {
+        char.transition()
+                .delay(delay)
+                .duration(300)
+                .ease("cubic-out")
+                .attr("transform", "translate(0,-30)")
+            .transition()
+                .duration(500)
+                .ease("cubic-in")
+                .attr("transform", "translate(0,0)")
+    };
+
+    var bounceHovered = function (d, index) {
         var hoveredChar = chars.filter(function (s, i) {
             return i == index
         });
-        hoveredChar
-                .transition().duration(300).ease("cubic-out").attr("transform", "translate(0,-30)")
-                .transition().duration(500).ease("cubic-in").attr("transform", "translate(0,0)")
+        bounceChar(hoveredChar, 0)
+    };
+
+    chars.on("mouseover", bounceHovered);
+
+    // bounce each character on page load
+    chars.each(function (d, i) {
+        var delay = i * 100;
+        bounceChar(d3.select(this), delay)
     });
 
 </script>
 
-</body>
 </html>
