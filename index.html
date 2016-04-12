@@ -282,7 +282,7 @@
 
     // bounce each character on page load
     chars.each(function (d, i) {
-        var delay = i * 100;
+        var delay = 500 + (i * 100);
         bounceChar(d3.select(this), delay)
     });
 
