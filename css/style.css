@@ -13,6 +13,10 @@ body {
     background-size: 20vmax;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 a {
     color: #006380;
 }
@@ -43,4 +47,27 @@ a:hover, a:visited, a:link, a:active {
 .names {
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+.termin {
+    background-color: #006380;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.well {
+    background-color: #E8F5EC;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: auto;
+    height: 300px;
+}
+
+.icon {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
 }
