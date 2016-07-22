@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" >
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon image_src" href="apple-touch-icon.png">
 
     <title>Physio Movimento</title>
@@ -25,6 +25,25 @@
 <body>
 
 <div class="container">
+    <nav class="row navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#">Physio</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="row">
         <div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-xs-12">
             <!-- offset and enlarge 'viewBox' to account for 30pt animation -->
@@ -241,19 +260,21 @@
 
         </div>
         <div class="section col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-xs-12">
-            <p>An neuer Adresse in Oberdorf, direkt neben dem Coop, entsteht unsere Physiotherapiepraxis mit
-                Trainingstherapie.
+            <p>
+                Herzlich Willkommen – Ihre Gesundheit steht bei uns im Zentrum.
             </p>
-            <p>Helle, grosszügige Praxisräume und moderne Trainingsgeräte erwarten unsere Patientinnen & Patienten.
-                Auch wenn Sie keine Therapie benötigen, können Sie in unserem Fitnessraum trainieren.</p>
-
-            <p>Wir freuen uns auf Sie!</p>
-            <p class="names"><b>Barbara&nbsp;Longo&nbsp;Gisin & Melina&nbsp;Dürr&nbsp;Bürgin</b><br/>
-                Dipl. Physiotherapeutinnen FH / SRK-anerkannt<br/>
-                <a href="mailto:info@physiomovimento.ch">info@physiomovimento.ch</a>
+            <p>
+                In unseren neu eröffneten Räumen in Oberdorf bieten wir das gesamte Spektrum an Physiotherapie und
+                modernem Fitness Training.
             </p>
-            <p>Bis zur Neueröffnung finden Sie uns in der <a href="niederdorf">bisherigen Praxis in Niederdorf</a>.</p>
-            <p>Den Baufortschritt können Sie <a href="https://goo.gl/photos/giXixUpqZRUgd7Zf8">in diesem Fotoalbum</a> verfolgen.</p>
+            <p>
+                Wir gehen Ihren Beschwerden auf den Grund und begleiten Sie in einen schmerzfreien Alltag, ihren Beruf,
+                oder ihr Hobby zurück.
+            </p>
+            <p>
+                Wenn Sie keine Therapie benötigen ist es umso wichtiger, dass Sie zu Ihrer Gesundheit Sorge tragen.
+                Trainieren Sie in unserem Fitnessraum an modernsten Geräten und in professioneller Begleitung.
+            </p>
         </div>
     </div>
 </div>
@@ -272,7 +293,7 @@
                 .duration(300)
                 .ease("cubic-out")
                 .attr("transform", "translate(0,-30)")
-            .transition()
+                .transition()
                 .duration(500)
                 .ease("cubic-in")
                 .attr("transform", "translate(0,0)")
@@ -296,14 +317,24 @@
 </script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-76298551-1', 'auto');
     ga('send', 'pageview');
 
 </script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </html>
