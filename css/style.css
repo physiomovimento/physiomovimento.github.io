@@ -17,6 +17,11 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-weight: 700;
+    color: black;
+}
+
 a {
     color: #006380;
 }
@@ -51,10 +56,17 @@ a:hover, a:visited, a:link, a:active {
 
 .termin {
     background-color: #006380;
-    color: white;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.termin a {
+    color: white;
+}
+
+.termin a:hover {
+    color: #ec580f;
 }
 
 .well {
@@ -66,8 +78,20 @@ a:hover, a:visited, a:link, a:active {
     height: 300px;
 }
 
+.well:hover {
+    background-color: lightgrey;
+}
+
 .icon {
     position: absolute;
     bottom: 50px;
     right: 50px;
+}
+
+.footer {
+    color: #515151;
+}
+
+.footer h2 {
+    padding-top: 20px;
 }
