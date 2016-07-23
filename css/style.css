@@ -22,6 +22,11 @@ h2 {
     color: black;
 }
 
+p {
+    padding-bottom: 10px;
+    line-height: 120%;
+}
+
 a {
     color: #006380;
 }
@@ -41,6 +46,18 @@ a:hover, a:visited, a:link, a:active {
     background-color: white;
 }
 
+.banner-container {
+    /** compensate for inherited container margins **/
+    margin-top: -10vmax;
+    margin-bottom: -10vmax;
+
+    padding: 0;
+}
+
+.banner {
+    padding: 0;
+}
+
 .section {
     padding-top: 5vmin;
 }
@@ -58,7 +75,7 @@ a:hover, a:visited, a:link, a:active {
     background-color: #006380;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .termin a {
@@ -86,6 +103,10 @@ a:hover, a:visited, a:link, a:active {
     position: absolute;
     bottom: 50px;
     right: 50px;
+}
+
+.fa-icon {
+    font-size: 10vmin;
 }
 
 .footer {
