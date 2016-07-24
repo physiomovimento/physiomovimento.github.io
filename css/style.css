@@ -95,7 +95,7 @@ a:hover, a:visited, a:link, a:active {
     height: 300px;
 }
 
-.well:hover {
+a > .well:hover {
     background-color: lightgrey;
 }
 
