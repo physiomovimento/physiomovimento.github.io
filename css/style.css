@@ -116,3 +116,20 @@ a > .well:hover {
 .footer h2 {
     padding-top: 20px;
 }
+
+/** prevent map zooming from messing up page scrolling */
+.map iframe {
+    pointer-events: none;
+}
+
+.no-gutter {
+    padding: 0;
+}
+
+.fat {
+    font-weight: bold;
+}
+
+.impressum {
+    margin-bottom: 10px;
+}
