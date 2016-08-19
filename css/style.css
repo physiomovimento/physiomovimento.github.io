@@ -39,19 +39,19 @@ a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
 
-.container {
+.container-fluid {
     margin-top: 10vmax;
-    margin-bottom: 10vmax;
     padding: 10px 5vmin;
     background-color: white;
 }
 
 .banner-container {
     /** compensate for inherited container margins **/
-    margin-top: -10vmax;
+    margin-top: -5vmax;
     margin-bottom: -10vmax;
 
     padding: 0;
+    padding-top: 5vmax;
 }
 
 .banner {
@@ -141,4 +141,11 @@ a > .well:hover {
 
 .modal-trigger:focus {
     outline: none;
+}
+
+.tile {
+    background: url("../img/tile.jpg");
+    background-size: 20vmax;
+    height: 10vmax;
+    padding: 0;
 }
