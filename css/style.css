@@ -138,3 +138,7 @@ a > .well:hover {
     line-height: 120%;
     margin-bottom: 20px;
 }
+
+.modal-trigger:focus {
+    outline: none;
+}
