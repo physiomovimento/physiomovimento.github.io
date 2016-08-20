@@ -102,6 +102,15 @@ a > .well:hover {
     right: 50px;
 }
 
+.more {
+    position: absolute;
+    bottom: 60px;
+}
+
+.more:focus {
+    outline: none;
+}
+
 .fa-icon {
     font-size: 10vmin;
 }
@@ -134,10 +143,6 @@ a > .well:hover {
 .footer table {
     line-height: 120%;
     margin-bottom: 20px;
-}
-
-.modal-trigger:focus {
-    outline: none;
 }
 
 .tile {
