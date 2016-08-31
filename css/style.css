@@ -102,6 +102,29 @@ a > .well:hover {
     right: 50px;
 }
 
+.team {
+    margin-bottom: 30px;
+}
+
+.portrait-well {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #E8F5EC;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: auto;
+}
+
+a > .portrait-well:hover {
+    background-color: lightgrey;
+}
+
+.portrait {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .more {
     position: absolute;
     bottom: 60px;
