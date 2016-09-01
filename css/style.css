@@ -8,11 +8,6 @@ html {
     min-height: 100%;
 }
 
-body {
-    background: url("../img/tile.jpg");
-    background-size: 20vmax;
-}
-
 h1 {
     font-weight: 700;
 }
@@ -40,8 +35,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container-fluid {
-    margin-top: 10vmax;
-    padding: 10px 5vmin;
+    padding: 1.5vmin 5vmin;
     background-color: white;
 }
 
