@@ -90,6 +90,14 @@ a > .well:hover {
     background-color: lightgrey;
 }
 
+.new {
+    height: 350px;
+}
+
+.new h1 {
+    color: #ec580f;
+}
+
 .icon {
     position: absolute;
     bottom: 50px;
