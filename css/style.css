@@ -180,3 +180,7 @@ a > .portrait-well:hover {
 .preliminary {
     color: #ec580f;
 }
+
+.opening-hours td {
+    vertical-align: top;
+}
