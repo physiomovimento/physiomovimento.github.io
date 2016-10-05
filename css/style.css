@@ -176,3 +176,7 @@ a > .portrait-well:hover {
     height: 10vmax;
     padding: 0;
 }
+
+.preliminary {
+    color: #ec580f;
+}
