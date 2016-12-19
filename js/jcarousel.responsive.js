@@ -6,9 +6,10 @@
             .on('jcarousel:reload jcarousel:create', function () {
                 var carousel = $(this),
                     width = carousel.innerWidth();
-
-                if (width >= 600) {
+                if (width >= 1900) {
                     width = width / 3;
+                } else if (width >= 600) {
+                    width = width / 2;
                 } else if (width >= 350) {
                     width = width / 2;
                 }
@@ -19,7 +20,7 @@
                 wrap: 'circular'
             })
             .jcarouselAutoscroll({
-                interval: 3000,
+                interval: 4000,
                 target: '+=1',
                 autostart: true
             });
