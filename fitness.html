@@ -12,6 +12,7 @@
 
     <link href="css/bootstrap-custom.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/jcarousel-responsive.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="js/d3-3.5.16.min.js"></script>
@@ -46,9 +47,24 @@
         </div>
     </nav>
 </div>
-<div class="container-fluid banner-container">
-    <img class="banner col-xs-12" src="img/dumbbells.jpg"/>
-</div>
+<a href="https://goo.gl/photos/zs2VspYAjVQJttVw9" target="_blank">
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>                
+                <li><img src="img/fitness6.jpeg" alt="Fitness Momentaufnahme 6"></li>
+                <li><img src="img/fitness1.jpeg" alt="Fitness Momentaufnahme 1"></li>
+                <li><img src="img/fitness2.jpeg" alt="Fitness Momentaufnahme 2"></li>
+                <li><img src="img/fitness3.jpeg" alt="Fitness Momentaufnahme 3"></li>            
+                <li><img src="img/fitness5.jpeg" alt="Fitness Momentaufnahme 5"></li>                            
+                <li><img src="img/fitness4.jpeg" alt="Fitness Momentaufnahme 4"></li>
+                <li><img src="img/fitness7.jpeg" alt="Fitness Momentaufnahme 7"></li>
+            </ul>
+        </div>
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+        <p class="jcarousel-pagination"></p>
+    </div>
+</a>
 <div class="container-fluid">
     <div class="row">
         <div class="section col-xs-12">
@@ -215,7 +231,6 @@
                 <a href="mailto:info@physiomovimento.ch">info@physiomovimento.ch</a>
             </p>
             <h2>Geschäftsöffnungszeiten</h2>
-            <p class="preliminary">Ab 07. Dezember 2016 am Mi durchgehend von 8 – 21 Uhr</p>
             <table>
                 <tr>
                     <td>
@@ -229,9 +244,9 @@
                     <td nowrap="true"><!-- TODO: Proper alignment -->
                         07:30 – 20:00 Uhr<br/>
                         08:00 – 21:00 Uhr<br/>
-                        14:00 – 21:00 Uhr<br/>
+                        08:00 – 21:00 Uhr<br/>
                         07:30 – 20:00 Uhr<br/>
-                        08:00 – 12:00 Uhr und 15:00 – 21:00 Uhr<br/>
+                        08:00 – 12:00 Uhr, 15:00 – 21:00 Uhr<br/>
                         09:00 – 13:00 Uhr
                     </td>
                 </tr>
@@ -261,6 +276,8 @@
 </script>
 
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/jcarousel.responsive.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 </html>
