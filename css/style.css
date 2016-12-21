@@ -167,7 +167,11 @@ a > .portrait-well:hover {
 
 .footer table {
     line-height: 120%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
+}
+
+.footer td {
+    vertical-align: top;
 }
 
 .tile {
