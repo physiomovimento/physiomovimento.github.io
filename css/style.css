@@ -172,6 +172,7 @@ a > .portrait-well:hover {
 
 .footer td {
     vertical-align: top;
+    padding-right: 10px;
 }
 
 .tile {
