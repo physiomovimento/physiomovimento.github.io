@@ -172,7 +172,7 @@ a > .portrait-well:hover {
 }
 
 .footer td {
-    vertical-align: justify;
+    vertical-align: top;
     padding-right: 10px;
 }
 
