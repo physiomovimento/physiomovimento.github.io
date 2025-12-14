@@ -186,3 +186,7 @@ a > .portrait-well:hover {
 .preliminary {
     color: #ec580f;
 }
+
+.times {
+    text-align: end;
+}
