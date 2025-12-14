@@ -188,5 +188,6 @@ a > .portrait-well:hover {
 }
 
 .times {
+    text-align: start;
     text-align: end;
 }
